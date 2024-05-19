@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="20.0" vgap="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab18.Lab18Controller">
+  <children>
+    <Pane prefHeight="300.0" prefWidth="250.0">
+      <children>
+        <Button fx:id="Button1" focusTraversable="false" layoutX="193.0" layoutY="267.0" mnemonicParsing="false" onAction="#ButtonClick" text="Send" />
+        <TextField fx:id="TextField1" onAction="#ButtonClick" layoutX="14.0" layoutY="267.0" prefHeight="25.0" prefWidth="171.0" />
+        <TextArea fx:id="TextArea1" editable="false" focusTraversable="false" layoutY="7.0" prefHeight="250.0" prefWidth="250.0" />
+      </children>
+    </Pane>
+  </children>
+</GridPane>
